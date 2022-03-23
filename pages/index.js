@@ -1,9 +1,9 @@
 import Image from "next/image";
-import styles from "../styles/Bg.module.css"
+import styles from "../styles/Index.module.css"
 export default function Home() {
   return (
      <div className={styles.container}>
-      <img src="/images/bg.jpg" alt ="fundo"/>
+      <Image src={"/images/bg.jpg"} width={1480} height={630} alt="bg"/>
      </div>
     
   )
