@@ -1,0 +1,47 @@
+
+
+.boxItem{
+    padding:15px;
+    width:20%;
+    background-color:#333;
+    border: 2px solid #D64045;
+    margin: 5px;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    color: #fff;
+    box-shadow: 5px 5px 12px rgba(0,0,0,0.5)
+}
+.id{
+    margin: 20px 0;
+    padding:5px;
+    background-color: #e33d33;
+    color:#FFF;
+    font-size:25px;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+}
+.name{
+    text-transform:capitalize;
+    margin-bottom:15px;
+    font-size: 20px;
+}
+.btn{
+    outline:none;
+    background-color: #fff;
+    color:#333;
+    border:none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius:5px;
+    font-weight:bold;
+    margin-top:15px;
+    transition: all ease .2s;
+}
+.btn:hover{
+    background-color:#e33d33;
+    color:#fff;
+}
