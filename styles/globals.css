@@ -24,4 +24,14 @@ li{
 
 }
 
-
+.bg{
+  width:100%;
+  height:75vh;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.bg h1{
+  color: #fff;
+}
