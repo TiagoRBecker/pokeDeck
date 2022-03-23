@@ -29,19 +29,23 @@
     margin-bottom:15px;
     font-size: 20px;
 }
-.btn{
-    outline:none;
-    background-color: #fff;
+.button{
+    width:150px;
+    height:40px;
+    padding:8px;
+    background-color:#fff;
     color:#333;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor:pointer;
     border:none;
-    cursor: pointer;
-    padding: 10px 20px;
-    border-radius:5px;
-    font-weight:bold;
-    margin-top:15px;
+    border-radius: 5px;
+    text-align:center;
+    line-height:20px;
     transition: all ease .2s;
 }
-.btn:hover{
-    background-color:#e33d33;
-    color:#fff;
+.button:hover{
+    background-color: #e33d33;
+    color: #fff;
+  
 }

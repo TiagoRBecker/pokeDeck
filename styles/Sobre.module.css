@@ -3,16 +3,26 @@
     align-items: center;
     justify-content:center;
     flex-direction:column;
+    padding:50px;
 }
 .button{
     width:150px;
     height:40px;
     padding:8px;
-    background-color:#e33d33;
+    background-color:#333;
     color:#FFF;
     margin-top: 30px;
     font-size: 20px;
     cursor:pointer;
     border:none;
     border-radius: 5px;
+    text-align:center;
+    line-height:20px;
+    transition: all ease .2s;
 }
+.button:hover{
+    background-color: #e33d33;
+  
+}
+
+

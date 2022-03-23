@@ -18,7 +18,7 @@ const Sobre = () => {
           height={400}
           alt="sobre"
         />
-        <Link href ="/"><button className={styles.button}>Voltar</button></Link>
+        <Link href ="/"><a className={styles.button}>Voltar</a></Link>
       </div>
     </>
   );
